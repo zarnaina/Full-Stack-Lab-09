@@ -1,0 +1,36 @@
+/* GLOBAL CSS: it applies to the whole app. We import it once in App.jsx. */
+body {
+  margin: 0; /* remove the default space around the page */
+  font-family: Calibri, Arial, sans-serif; /* the font */
+  background: #f3f6fa; /* light grey page */
+  color: #1b2b3a; /* dark text */
+}
+ 
+.header {
+  background: #0f8f83; /* teal bar */
+  color: white; /* white text */
+  padding: 24px; /* space inside */
+  text-align: center; /* centre the text */
+}
+ 
+.header h1 {
+  margin: 0; /* no extra space above the title */
+}
+ 
+.container {
+  max-width: 900px; /* not wider than 900px */
+  margin: 0 auto; /* centre the box */
+  padding: 16px; /* space inside */
+}
+ 
+.grid {
+  display: grid; /* a grid layout */
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* as many 240px columns as fit */
+  gap: 16px; /* space between the cards */
+}
+ 
+.footer {
+  text-align: center; /* centre the text */
+  color: #5b6b7c; /* grey text */
+  padding: 16px; /* space inside */
+}

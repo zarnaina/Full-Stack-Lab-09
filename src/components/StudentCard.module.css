@@ -1,0 +1,29 @@
+/* A CSS MODULE: these class names belong ONLY to StudentCard.jsx.
+   Vite renames them (for example .card becomes _card_x7k2a), so they never clash with other files. */
+.card {
+  background: white; /* white card */
+  border: 1px solid #d3dce6; /* thin grey border */
+  border-radius: 10px; /* round corners */
+  padding: 16px; /* space inside */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); /* soft shadow */
+}
+ 
+.name {
+  margin: 0 0 4px 0; /* no space above, small below */
+  color: #0f8f83; /* teal */
+}
+ 
+.program {
+  margin: 0 0 8px 0; /* small space below */
+  font-weight: bold; /* thick text */
+}
+ 
+.email {
+  color: #5b6b7c; /* grey */
+  font-size: 0.9rem; /* a little smaller */
+}
+ 
+.missing {
+  color: #c0392b; /* red text for "not added" */
+  font-style: italic; /* slanted text */
+}
